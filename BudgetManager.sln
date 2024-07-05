@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManagerApi", "BudgetManagerApi\BudgetManagerApi.csproj", "{5C5F3DCE-3D69-4769-BC59-B5FC43DC4537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManager.Domain", "BudgetManager.Domain\BudgetManager.Domain.csproj", "{F1A10E0C-E3EB-42D2-B0CA-81F1BFB81468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManager.Services", "BudgetManager.Services\BudgetManager.Services.csproj", "{91E11B76-04AB-4077-8E63-86CE8D5D86A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetManager.Repositories", "BudgetManager.Repositories\BudgetManager.Repositories.csproj", "{020AB360-DDBD-4588-9000-74A8AF1F214E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{5C5F3DCE-3D69-4769-BC59-B5FC43DC4537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C5F3DCE-3D69-4769-BC59-B5FC43DC4537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C5F3DCE-3D69-4769-BC59-B5FC43DC4537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A10E0C-E3EB-42D2-B0CA-81F1BFB81468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A10E0C-E3EB-42D2-B0CA-81F1BFB81468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A10E0C-E3EB-42D2-B0CA-81F1BFB81468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A10E0C-E3EB-42D2-B0CA-81F1BFB81468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E11B76-04AB-4077-8E63-86CE8D5D86A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E11B76-04AB-4077-8E63-86CE8D5D86A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E11B76-04AB-4077-8E63-86CE8D5D86A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E11B76-04AB-4077-8E63-86CE8D5D86A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020AB360-DDBD-4588-9000-74A8AF1F214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020AB360-DDBD-4588-9000-74A8AF1F214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020AB360-DDBD-4588-9000-74A8AF1F214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020AB360-DDBD-4588-9000-74A8AF1F214E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
