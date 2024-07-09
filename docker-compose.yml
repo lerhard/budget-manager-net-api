@@ -4,7 +4,8 @@
     environment:
         POSTGRES_USER: postgres
         POSTGRES_PASSWORD: postgres
-        POSTGRES_DB: budgetmanager
+    ports:
+      - "5432:5432"
     
   budgetmanagerapi:
     image: budgetmanagerapi
