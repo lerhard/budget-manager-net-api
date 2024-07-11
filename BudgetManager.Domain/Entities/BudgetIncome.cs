@@ -11,8 +11,12 @@ public class BudgetIncome
     [Column("id")]
     public int Id { get; set; }
     
+    
     [Column("snowflake_id")]
     public long SnowflakeId { get; set; }
+    
+    [Column("budget_id")]
+    public int BudgetId { get; set; }
     
     [Column("amount")]
     public decimal Amount { get; set; }
@@ -31,4 +35,6 @@ public class BudgetIncome
     
     [Column("enabled")]
     public bool Enabled { get; set; }
+    
+    public Budget Budget { get; set; }
 }

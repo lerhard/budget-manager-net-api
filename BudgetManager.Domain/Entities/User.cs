@@ -46,4 +46,8 @@ public class User
     [Required]
     [Column("enabled")]
     public bool Enabled { get; set; } 
+    
+    public UserGroup UserGroup { get; set; }
+    
+    public IEnumerable<UserBudget> UserBudgets { get; set; }
 }

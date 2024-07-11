@@ -30,4 +30,7 @@ public class Budget
     [Column("enabled")]
     public bool Enabled { get; set; }
     
+    public IEnumerable<BudgetIncome> BudgetIncomes { get; set; }
+    public IEnumerable<BudgetCost> BudgetCosts { get; set; }
+    
 }

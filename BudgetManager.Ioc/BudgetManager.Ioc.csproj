@@ -7,13 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
         <HintPath>..\..\..\..\..\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0-preview.6.24327.7\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BudgetManager.Application\BudgetManager.Application.csproj" />
+      <ProjectReference Include="..\BudgetManager.Infrastructure\BudgetManager.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

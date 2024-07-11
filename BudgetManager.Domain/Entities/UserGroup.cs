@@ -27,4 +27,6 @@ public class UserGroup
         
         [Column("enabled")]
         public bool Enabled { get; set; }
+        
+        public User User { get; set; }
 }

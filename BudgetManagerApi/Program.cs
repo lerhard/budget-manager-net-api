@@ -1,3 +1,5 @@
+using BudgetManager.Ioc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -5,6 +7,8 @@ builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
     .AddEnvironmentVariables();
+
+builder.Services.ConfigureDependencyInjection();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
