@@ -8,8 +8,14 @@ namespace BudgetManager.Application.Encryption;
 
 public class EncryptionService : IEncryptionService
 {
-    private const string defaultKey = "BudgetManager";
-    private readonly string iv = "ivBudgetManager";
+    private readonly string defaultKey;
+    private readonly string iv;
+
+    public EncryptionService()
+    {
+       defaultKey = Environment.GetEnvironmentVariable("BM_DEFAULT_ENCRYPTION_KEY") ?? "BudgetManager";
+       iv = "iv" + defaultKey;
+    }
 
     public string Encrypt(string plainText, string key = "")
     {
