@@ -1,4 +1,4 @@
-using BudgetManager.Application.Encryption;
+using BudgetManager.Application.Services.Encryption;
 
 namespace BudgetManager.UnitTests.Services;
 

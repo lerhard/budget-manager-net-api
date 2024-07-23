@@ -17,6 +17,7 @@
       ASPNETCORE_URLS: "http://+:8080;https://+:8081"
       Kestrel__Certificates__Default__Path: /https/aspnetapp.pfx
       DB_CONNECTION_STRING: "ezXrSMUPTxM+l3nk1OMDGovzbjVOCyN1Zf7fvxXcHJwcILGtjK6seOpfbjAga+g7/Ki0/aSw2ryyZKCCo54yoe0LbBKQUP51z37kBrWa6IElu+bpjlLBu2wgO0HAsmt4"
+      DB_PROVIDER: "NPGSQL"
       BM_DEFAULT_ENCRYPTION_KEY: "KHigh9XVFITSywTHSReS3g=="
     ports:
       - "8080:8080"

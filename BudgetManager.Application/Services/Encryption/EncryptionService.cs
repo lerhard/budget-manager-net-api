@@ -1,10 +1,9 @@
-using System.Runtime.Intrinsics.Arm;
 using System.Security.Cryptography;
 using System.Text;
 using BudgetManager.Domain.Interfaces.Services;
 using Aes = System.Security.Cryptography.Aes;
 
-namespace BudgetManager.Application.Encryption;
+namespace BudgetManager.Application.Services.Encryption;
 
 public class EncryptionService : IEncryptionService
 {
