@@ -9,6 +9,7 @@
     <ItemGroup>
       <Folder Include="Configuration\" />
       <Folder Include="Data\Repositories\Budgets\" />
+      <Folder Include="Services\" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,4 +1,4 @@
-namespace BudgetManager.Domain.Interfaces.Services;
+namespace BudgetManager.Domain.Interfaces.Application.Services;
 
 public interface IEncryptionService
 {

@@ -1,5 +1,5 @@
 using BudgetManager.Ioc;
-using BudgetManagerApi.Utils;
+using BudgetManager.Presentation.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 

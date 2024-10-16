@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using BudgetManager.Domain.Entities.Enums;
+using BudgetManager.Domain.Enums;
 
 namespace BudgetManager.Domain.Entities;
 

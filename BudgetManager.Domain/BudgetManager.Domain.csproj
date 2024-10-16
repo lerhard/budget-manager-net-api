@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\Repositories\Budgets\Commands\" />
-      <Folder Include="Interfaces\Repositories\Budgets\Queries\" />
+      <Folder Include="Interfaces\Application\" />
+      <Folder Include="ValueObjects\" />
     </ItemGroup>
 
 </Project>

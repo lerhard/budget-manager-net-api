@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 using System.Text;
-using BudgetManager.Domain.Interfaces.Services;
+using BudgetManager.Domain.Interfaces.Application.Services;
 using Aes = System.Security.Cryptography.Aes;
 
 namespace BudgetManager.Application.Services.Encryption;

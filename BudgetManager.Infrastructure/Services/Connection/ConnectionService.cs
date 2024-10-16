@@ -1,9 +1,10 @@
 using System.Data;
-using BudgetManager.Domain.Interfaces.Services;
+using BudgetManager.Domain.Interfaces.Application.Services;
+using BudgetManager.Domain.Interfaces.Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 
-namespace BudgetManager.Application.Services.Connection;
+namespace BudgetManager.Infrastructure.Services.Connection;
 
 public class ConnectionService : IConnectionService
 {

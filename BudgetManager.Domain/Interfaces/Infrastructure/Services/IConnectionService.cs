@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace BudgetManager.Domain.Interfaces.Services;
+namespace BudgetManager.Domain.Interfaces.Infrastructure.Services;
 
 public interface IConnectionService
 {

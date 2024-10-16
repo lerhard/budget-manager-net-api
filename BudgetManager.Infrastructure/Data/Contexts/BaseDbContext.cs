@@ -29,7 +29,13 @@ public class BaseDbContext: DbContext
    public void SetTransaction(IDbTransaction transaction)
    {
       _transaction = transaction;
+      if (_transaction is not null)
+      {
+         Database.UseTransaction((NpgsqlTransaction)_transaction);
+      }
    }
    
-   public bool isTransactionActive => _transaction != null;
+   public bool IsTransactionActive => _transaction != null;
+   
+   public IDbTransaction GetCurrentTransaction() => _transaction;
 }

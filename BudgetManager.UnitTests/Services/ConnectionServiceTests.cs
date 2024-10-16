@@ -1,6 +1,6 @@
 using System.Data;
-using BudgetManager.Application.Services.Connection;
-using BudgetManager.Domain.Interfaces.Services;
+using BudgetManager.Domain.Interfaces.Application.Services;
+using BudgetManager.Infrastructure.Services.Connection;
 using Microsoft.Extensions.Configuration;
 using Moq;
 

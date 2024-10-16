@@ -1,4 +1,4 @@
-namespace BudgetManagerApi.Utils;
+namespace BudgetManager.Presentation.Utils;
 
 public static class ConfigurationExtensions
 {

@@ -1,4 +1,4 @@
-namespace BudgetManager.Domain.Entities.Enums;
+namespace BudgetManager.Domain.Enums;
 
 public enum BudgetEntryType
 {
